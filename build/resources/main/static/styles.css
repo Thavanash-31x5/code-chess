@@ -1,0 +1,20 @@
+:root{
+    font-family: sans-serif;
+    color: #1f2933;
+    background-color: #f5f7fa;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    min-width: 320px;
+}
+
+main{
+    width:min(100% -2rem , 60rem);
+    margin: 0 auto;
+    padding: 4rem 0;
+}
