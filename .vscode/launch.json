@@ -1,0 +1,26 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        
+    // {
+    // "type" : "java",
+    // "name" : "Debug backend (Application)",
+    // "request" : "launch",
+    // "mainClass" : "com.example.app.Application",
+    // "projectName" : "code-chess"
+    // },
+    
+    {
+        "type" : "java",
+        "name" : "Attach to backend (5005)",
+        "request" : "attach",
+        "hostName" : "localhost",
+        "port" : 5005
+
+    }
+    ]
+
+}
+
+
+
